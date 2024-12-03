@@ -1,10 +1,10 @@
 import React from "react";
-import BasicBoard from "./components/basicBoard";
+import Chessboard from "./components/Chessboard";
 
 const App = () => {
   return (
-    <div>
-      <BasicBoard />
+    <div className="flex justify-center items-center h-screen ">
+      <Chessboard />
     </div>
   );
 };
